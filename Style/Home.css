@@ -4,7 +4,19 @@ body{
 
  
 }
-
+.square_container{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.square_content{
+    width: 48%;
+    height: 450px;
+    background-color: #883137;
+    position: absolute;
+    z-index: -100000;
+    border-bottom-left-radius: 10px;
+}
 
 
 
@@ -20,7 +32,7 @@ body{
 
 header{
     display: flex;
-    width: 100%;
+    width: 53%;
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -28,26 +40,43 @@ header{
 }
 .menu{
     font-size: 32px;
+    color: #710e15;
 }
 nav{
     width: 100%; 
     max-width: 900px;
     display: flex;
     justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 .nav_button{
-    max-width:200px ;
-    width: 100%;
+    min-width: 100px;
+    max-width: 180px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 200ms;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #710e15;
+    font-weight: 600;
 }
+.nav_button:hover{
+    background-color: #883137;
+    color: #fff;
+    transition: 200ms;
+    text-decoration: underline;
+    border-radius: 15px;
+}
+
 
 
 
 
 .presentation_content{
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -61,14 +90,21 @@ nav{
     object-position: 50% 0%;
 }
 .name{
+    font-weight: 800;
     color:#400105;
     font-size: 40px;
 
 }
 .study{
+    font-weight: 600;
     color: #710e15;
     font-size: 25px;
-
+    margin-top: -30px;
+}
+.study1{
+    color: #710e15;
+    font-size: 25px;
+    margin-top: -30px;
 }
 .container_name{
     margin-top: 40px;
