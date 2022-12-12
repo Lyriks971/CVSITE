@@ -39,7 +39,7 @@ header{
     font-family: 'Roboto Slab', serif;
 }
 .menu{
-    font-size: 32px;
+    font-size: 40px;
     color: #710e15;
 }
 nav{
@@ -87,7 +87,7 @@ nav{
     object-fit: cover;
     width: 300px;
     height: 300px;
-    object-position: 50% 0%;
+    object-position: 50% 45%;
 }
 .name{
     font-weight: 800;
