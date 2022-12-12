@@ -1,0 +1,82 @@
+body{
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+
+ 
+}
+
+
+
+
+.center{
+    display: flex;
+    justify-content:center;
+}
+
+
+
+
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+.menu{
+    font-size: 32px;
+}
+nav{
+    width: 100%; 
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav_button{
+    max-width:200px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.presentation_content{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profil_picture{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    object-position: 50% 0%;
+}
+.name{
+    color:#400105;
+    font-size: 40px;
+
+}
+.study{
+    color: #710e15;
+    font-size: 25px;
+
+}
+.container_name{
+    margin-top: 40px;
+}
+.container_article{
+    width: 100%;
+    max-width: 1000px;
+}
+.story{
+    margin-top: 100px;
+}
